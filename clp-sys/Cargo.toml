@@ -1,0 +1,13 @@
+[package]
+name = "clp-sys"
+version = "0.1.0"
+description = "Rust bindings to the COIN-OR Linear Programming (CLP) library"
+license = "MIT"
+repository = "https://github.com/taktoa/rust-clp"
+authors = ["Remy Goldschmidt <taktoa@gmail.com>"]
+links = "clp"
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.46.*"
+pkg-config = "0.3.*"
